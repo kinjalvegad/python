@@ -1,15 +1,10 @@
-def main():
-    num=1
-    print(num)
-    increment(num)
-    print(num)
+def testfunc(argc):
+    for i in argc:
+        print(i)
 
-def increment(n):
-    print(n)
-    n+=1
-    print(n)
-main()
-#1
-#1
-#2
-#1
+a=[x for x in input("enter string...").split(',')]
+testfunc(a)    
+#enter string...kinjal,vegad,26
+#kinjal
+#vegad
+#26    
